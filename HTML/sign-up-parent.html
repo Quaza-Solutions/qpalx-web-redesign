@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+ <header>
+ <form>
+<div class="row">
+<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 logo"></div>
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><button type="button" class="sign-up header-buttons">Account</button></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><button type="button" id="header-button" class="sign-up header-buttons">Sign Out</button></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+  </div>
+  </form>
+  </header>
+
+  <h1>Sign Up</h1>
+  <div class="container">
+   <div class="col-md-2" onClick="hrFunctionA()" style="cursor: pointer;"><span class="three-circle-blue" id="circle-1"><span class="three-blue" id="number-1"><b>1</b></span></span><span class="three-text-blue" id="text-1"><b> Account</b> </span><hr class="blue-hr-1" id="hr-1" /></div>
+ 
+    <div class="col-md-2" onClick="hrFunctionB()" style="cursor: pointer;"><span class="three-circle-gray" id="circle-2"><span class="three-gray" id="number-2">2</span></span> <span id="text-2"><b>Payment</b></span><hr class="black-hr-2" id="hr-2" /></div>
+    
+<div class="col-md-2" onClick="hrFunctionC()" style="cursor: pointer;"><span class="three-circle-gray" id="circle-3"><span class="three-gray" id="number-3">3</span></span><span id="text-3"><b> Proficiency</b></span><hr class="black-hr-2" id="hr-3" /></div> 
+   <div class="clearfix bottom-space"></div>
+   <div class="col-md-3"><b>Account Information</b></div>
+   <div class="clearfix"></div>
+   <div class="col-md-3"><img id="parent" src="images/parent.png" /></div>
+   <div class="col-md-3"></div>
+   <div class="col-md-6"></div>
+   <div class="clearfix"></div>
+      <div class="col-md-3"></div>
+   <div class="col-md-3"></div>
+   <div class="col-md-6"></div>
+    <div class="clearfix bottom-space"></div>
+    <div class="col-md-3"><label for="first">First name</label></div><div class="col-md-3"><label for="last">Last name</label></div><div class="col-md-6"><label for="password-1">Password</label></div>
+  <div class="clearfix"></div>
+
+<form action="" method="get" id="submit_form_2">
+ 
+  <div class="col-md-3"><input type="text" size="26" id="first" name="first"><span id="first-name"></span></div>
+  <div class="col-md-3"><input type="text" size="26" id="last" name="last"><span id="last-name"></span></div>
+  <div class="col-md-6"><input type="password" size="61" class="password" name="pass" id="password-1"></div>
+  
+   <div class="clearfix bottom-space"></div>
+  <div class="col-md-6"><label for="id">Student Success ID</label></div>
+   <div class="col-md-6"><label for="password-2">Confirm Password</label></div>
+  <div class="clearfix"></div>
+  <div class="col-md-6"><input type="email" size="61" class="email" id="id"><span id="tooltip-1"></span></div>
+  <div class="col-md-6"><input type="password" class="password" size="61" name="pass-2" id="password-2"><span id="password-confirm"></span></div>
+  <div class="clearfix bottom-space"></div>
+  
+   <div class="col-md-6"><label for="email-2">Student E-mail - <span id="small-text">(An email will be sent to your child to finish his or her Qplax profile).</span></label></div>
+   <div class="col-md-6"></div>
+  <div class="clearfix"></div>
+  <div class="col-md-6"><input type="email" size="61" class="email-2" id="email-2"><span class="tooltip-2"></span></div>
+  <div class="col-md-6"></div>
+  <div class="clearfix bottom-space"></div>
+   
+   <div class="clearfix bottom-space"></div>
+    <div class="col-md-12 continue"><button type="submit" class="btn btn-success">Continue</button></div>
+    </form>
+</div>
+
+   <div class="clearfix bottom-space"></div>
+<div class="row bottom-6">
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 bottom-4">
+<img src="assets/Social-Icons-01.png" class="social-icons" />
+<img src="assets/Social-Icons-02.png" class="social-icons" />
+<img src="assets/Social-Icons-03.png" class="social-icons" />
+<br /><br />
+<p class="copyright">&copy; 2016 QPALX. All rights reserved</p>
+</div>
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 bottom-5">
+<p>Contact Us<br />
+hello@qpalx.com<br />
+Studio M, 4th Floor 8 Lower<br />
+Manchester Street, M1 SQF<br />
++34 393 323 32 22</p>
+</div>
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 float-right">
+<p>Subscribe Now<br />
+Sign up to stay up to date with our<br />
+latest news</p>
+
+<input type="text" name="email" class="textbox" value="&nbsp;&nbsp;&nbsp;Enter Email Address">
+<button type="submit" class="sign-up">Sign Up</button>
+</div>
+</div>
+<footer>
+</footer>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
+    
+    <script src="js/hr.js"></script>
+  </body>
+</html>
