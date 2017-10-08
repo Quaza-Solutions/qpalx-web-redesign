@@ -119,6 +119,15 @@ color: #84c756;
 	margin-top: 64px;
 	margin-left: 100px;
 }
+.end-buttons {
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.end-buttons-2 {
+	margin-top: 20px;
+	margin-left: 40px;
+}
 
 #header-button {
 	margin-left: 168px;
@@ -1060,11 +1069,15 @@ z-index: 1;
 	position: absolute;
 
 
-	width: 380px;
-	top: 430px;
+/*	width: 380px; 
+	top: 420px;
+
+*/
+	width: 28%;
+	top: 410px;
 	left: -2%;
 	margin-left: -2%;
-	
+	height: 94%;
 	/*
 	width: 27.8%;
 	left: 920px;
@@ -2487,6 +2500,21 @@ font-size: 18px;
 color: #fff; 
 background-color: #74be43;
 }
+
+.all-lessons {
+color: #fff; 
+background-color: #07bed3; 
+padding-top: 6px; 
+width: 220px;
+height: 40px;
+font-size: 18px;
+}
+
+.all-lessons:hover {
+color: #fff; 
+background-color: #74be43;
+}
+
 .lessons {
 color: #fff; 
 background-color: #07bed3; 
