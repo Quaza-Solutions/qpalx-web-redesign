@@ -209,6 +209,10 @@ background-color: #fff;
 
 .bottom-2 {
 	background-color: #fff;
+	width: 84%;
+	text-align: center;
+	margin: auto;
+	font-size: 16px;
 }
 .header-7 {
 	color: #84c756;
@@ -237,11 +241,13 @@ background-color: #fff;
 	background-color: #fff;
 	margin-top: 0px;
 	z-index: 1;
+		width: 88%;
+	margin: auto;
 }
 
 .bottom-7 {
 	background-color: #fff;
-	padding-top: 120px;
+	padding-top: 80px;
 }
 .float-right {
 	float: right;
@@ -925,13 +931,13 @@ color: #0abfd2;
 	margin-top: 24px;
 	margin-left: -100px;
 }
-
+/*
 .audio {
 	width: 40px;
 	margin-top: 10px;
 	margin-left: -80px;
 }
-
+*/
 .hand {
 	width: 40px;
 	margin-top: 8px;
@@ -1792,7 +1798,7 @@ html {
 
 }
 
-
+/*
 .progressbar .progress-value {
 	padding: 0px 5px;
 	line-height: 20px;
@@ -1804,7 +1810,7 @@ html {
 	height: 18px;
 	float: right;
 }
-
+*/
 #waec {
 	width: 100px;
 	height: 57px;
@@ -2659,4 +2665,17 @@ video::-webkit-media-controls-enclosure {
     padding: 20px; 
     width: 200px;
     height: 220px; 
+}
+
+.white-b {
+	background-color: white;	
+}
+
+.l-side {
+margin-left: 100px;
+}
+
+.r-side {
+margin-left: 100px;
+margin-right: 100px;	
 }
