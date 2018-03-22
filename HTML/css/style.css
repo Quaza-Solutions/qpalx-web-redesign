@@ -115,10 +115,6 @@ color: #84c756;
 	margin: 0px;
 }
 
-.header-buttons {
-	margin-top: 64px;
-	margin-left: 100px;
-}
 .end-buttons {
 	margin-top: 20px;
 	margin-left: 40px;
@@ -144,18 +140,7 @@ font-family: 'robotobold', sans-serif;
 font-family: 'opensansbold', sans-serif;
 }*/
 
-.logo {
-	background-image:url("../assets/new_logo.png");
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-origin: border-box;
-    background-position: left top;
-	background-size: cover;
-	position: relative;
-	top: 20px;
-	height: 107px;
-	width: 274px;
-}
+
 .middle {
 	background-image:url("../assets/Qpalx-background.png");
 	color: #fff;
@@ -2018,22 +2003,52 @@ progress[value]::-moz-progress-bar
                                             rgba(0, 0, 0, 0) );
 	*/
 }
-
+.logo {
+	background-image:url("../assets/new_logo.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+    background-position: left top;
+	background-size: cover;
+	position: fixed;
+	top: 20px;
+	margin: 0 0 0 50px;
+	height: 107px;
+	width: 274px;/*
+	height: 54px;
+	width: 137px;*/
+}
 .header-text-box {
 	/*	margin: 65px 0 0 160px;*/
 /*	position: absolute;
 	top: 65px;
 	left: 160px;*/
+	margin: 84px 0 0 840px;
 		height: 40px;
-		width: 200px;
+		width: 240px;
+		position: fixed;
 		background-color: #e6e7e9;
 }
 
 .header-text-box-2 {
-		margin: 65px 0 0 40px;
+		margin: 84px 0 0 600px;
 		height: 40px;
-		width: 200px;
+		width: 240px;
 		background-color: #e6e7e9;
+		position: fixed;
+}
+.header-buttons {
+	margin: 64px 0 0 0;
+}
+.log-in {
+color: #fff; 
+background-color: #07bed3; 
+padding-top: 6px; 
+width: 180px;
+height: 40px;
+font-size: 18px;
+position: fixed;
+margin: 64px 0 0 1080px;
 }
 
 @media all and (max-width: 799px) and (min-width: 500px) {
@@ -2550,23 +2565,13 @@ color: #fff;
 background-color: #74be43;
 }
 
-.log-in {
-color: #fff; 
-background-color: #07bed3; 
-padding-top: 6px; 
-width: 120px;
-height: 40px;
-font-size: 18px;
-}
+
 
 .log-in:hover {
 color: #fff; 
 background-color: #74be43;
 }
 
-#header-button-1 {
-margin-left: 250px;	
-}
 .social-media-icons {
 	width: 50px;
 	margin-left: 30px;
