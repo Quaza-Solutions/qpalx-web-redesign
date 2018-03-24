@@ -219,10 +219,12 @@ background-color: #fff;
 .bottom-3 {
 }
 .bottom-4 {
-	margin: 100px 0 0 100px;
+	margin: 120px 0 0 0;
+	padding: 0 0 0 100px;
 }
 .bottom-5 {
-	margin: 40px 0 0 0;
+	margin: 60px 0 0 0;
+	padding: 0 0 0 100px;
 }
 .bottom-6 {
 	background-color: #fff;
@@ -237,8 +239,8 @@ background-color: #fff;
 	padding-top: 80px;
 }
 .float-right {
-	float: right;
-	margin: -110px 0 0 0;
+	/*float: right; margin: 0 0 0 0;*/
+	
 }
 footer {
 background-color: #fff;
@@ -2010,7 +2012,7 @@ progress[value]::-moz-progress-bar
 	background-origin: border-box;
     background-position: left top;
 	background-size: cover;
-	position: fixed;
+/*	position: fixed;*/
 	top: 20px;
 	margin: 0 0 0 50px;
 	height: 107px;
@@ -2018,28 +2020,25 @@ progress[value]::-moz-progress-bar
 	height: 54px;
 	width: 137px;*/
 }
+.header-text-box-2 {
+		margin: 64px 0 0 600px;
+		height: 40px;
+		width: 240px;
+		background-color: #e6e7e9;
+/*		position: fixed;*/
+}
 .header-text-box {
 	/*	margin: 65px 0 0 160px;*/
 /*	position: absolute;
 	top: 65px;
 	left: 160px;*/
-	margin: 84px 0 0 840px;
+	margin: 64px 0 0 500px;
 		height: 40px;
 		width: 240px;
-		position: fixed;
+/*		position: fixed;*/
 		background-color: #e6e7e9;
 }
 
-.header-text-box-2 {
-		margin: 84px 0 0 600px;
-		height: 40px;
-		width: 240px;
-		background-color: #e6e7e9;
-		position: fixed;
-}
-.header-buttons {
-	margin: 64px 0 0 0;
-}
 .log-in {
 color: #fff; 
 background-color: #07bed3; 
@@ -2047,8 +2046,8 @@ padding-top: 6px;
 width: 180px;
 height: 40px;
 font-size: 18px;
-position: fixed;
-margin: 64px 0 0 1080px;
+/*position: fixed;*/
+margin: 64px 0 0 400px;
 }
 
 @media all and (max-width: 799px) and (min-width: 500px) {
