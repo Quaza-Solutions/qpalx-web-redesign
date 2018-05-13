@@ -342,9 +342,7 @@ h1 {
 	height: 40px;
 }
 
-#log-in {
-	width: 100px;
-}
+
 #icons {
 	text-align: center; 
 	vertical-align: middle; 
@@ -2033,22 +2031,22 @@ progress[value]::-moz-progress-bar
 	width: 137px;*/
 }
 .header-text-box-2 {
-		margin: 64px 0 0 600px;
+		margin: 64px 0 0 0;
+	/*margin: 64px 0 0 600px;*/
 		height: 40px;
 		width: 240px;
 		background-color: #e6e7e9;
-/*		position: fixed;*/
+ position: relative;
+ left: 640px;
 }
 .header-text-box {
-	/*	margin: 65px 0 0 160px;*/
-/*	position: absolute;
-	top: 65px;
-	left: 160px;*/
-	margin: 64px 0 0 500px;
+	/*margin: 64px 0 0 500px;*/
+	margin: 64px 0 0 0;
 		height: 40px;
 		width: 240px;
-/*		position: fixed;*/
 		background-color: #e6e7e9;
+		 position: relative;
+ left: 700px;
 }
 
 .log-in {
@@ -2058,10 +2056,14 @@ padding-top: 6px;
 width: 180px;
 height: 40px;
 font-size: 18px;
-/*position: fixed;*/
-margin: 64px 0 0 400px;
+/*margin: 64px 0 0 400px;*/
+margin: 64px 0 0 0;
+ position: relative;
+ left: 760px;
 }
-
+#log-in {
+	width: 100px;
+}
 @media all and (max-width: 799px) and (min-width: 500px) {
 header {
 	height: 100%;
