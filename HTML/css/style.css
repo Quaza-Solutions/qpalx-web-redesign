@@ -179,9 +179,21 @@ text-align: center;
 color: #00bdd1;
 font-size: 32px;
 	margin: 60px 0 0 0;
+	padding: 126px 0 0 0;
 text-align: center;
 vertical-align: middle;
 }
+
+.bottom-7 {
+
+color: #00bdd1;
+font-size: 32px;
+	margin: 0 0 0 0;
+	padding: 80px 0 0 0;
+text-align: center;
+vertical-align: middle;
+}
+
 #header-4 {
 background-color: #43484d;
 text-align: right;
@@ -234,9 +246,9 @@ background-color: #fff;
 	margin: auto;
 }
 
-.bottom-7 {
-	background-color: #fff;
-	padding-top: 80px;
+
+.bottom-8 {
+	margin: 60px 0 0 0;	
 }
 .float-right {
 	/*float: right; margin: 0 0 0 0;*/
@@ -278,8 +290,8 @@ margin: 20px 40px 20px 40px;
 }
 .textbox {
 	background-color: #e6e7e9;
-	width: 200px;
 	height: 40px;
+	margin-right: 10px;
 }
 
 
