@@ -90,6 +90,7 @@ font-family: 'opensanslight';
 src: url('../assets/fonts/open_sans/OpenSans-light.woff');
 }
 */
+
 header {
 	/*
 background-color: #43484d;
@@ -140,26 +141,35 @@ font-family: 'robotobold', sans-serif;
 font-family: 'opensansbold', sans-serif;
 }*/
 
-
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
 .middle {
 	background-image:url("../assets/Qpalx-background.png");
 	color: #fff;
+	margin: 0;
+	padding: 0;
+	height: 1000px;
 }
 .middle-2 {
 	
-	background-color: #fff;
-	/*height: 400px;*/
-	height: 506px;
+	background-color: #aaa;
+/*	height: 506px; */
+	height: 426px;
 	width: 900px;
-	margin: 60px auto;
+/*	margin: 20px auto 60px auto;*/
+	margin: 0 auto;
 	color: #84c756;
 	box-shadow: -5px 5px 20px 0 #000000;
+	padding: 0;
 	
 }
 .bar {
 	background-color: #000;
 	height: 40px;
 	width: 900px;	
+	margin: 0 0 0 0;
 }
 .bar-2 {
 	background-color: #000;
