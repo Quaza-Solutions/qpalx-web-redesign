@@ -144,7 +144,21 @@ font-family: 'opensansbold', sans-serif;
   .carousel-inner img {
       width: 100%;
       height: 100%;
+	  padding: 0;
+	  overflow:visible;
   }
+ 
+video {line-height: 0; vertical-align: bottom; overflow: hidden; display:  block; margin: 0; height: 506px;}
+ 
+.carousel-inner>.item {
+    display: none;
+    position: relative;
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+
+
 .middle {
 	background-image:url("../assets/Qpalx-background.png");
 	color: #fff;
@@ -155,8 +169,8 @@ font-family: 'opensansbold', sans-serif;
 .middle-2 {
 	
 	background-color: #aaa;
-/*	height: 506px; */
-	height: 426px;
+	height: 586px; 
+/*	height: 426px;*/
 	width: 900px;
 /*	margin: 20px auto 60px auto;*/
 	margin: 0 auto;
